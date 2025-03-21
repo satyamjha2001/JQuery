@@ -1,0 +1,10 @@
+main{
+    display: flex;
+    margin: 0 0 10px 0;
+}
+div{
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+}
+
