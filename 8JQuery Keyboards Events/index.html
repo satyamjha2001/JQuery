@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JQuery Keyboards Events</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- jQuery supports 3 types of keyboard events and which we are :
+    keyup(): Event fired when a key is released on the keyboard.
+    keydown(): Event fired when a key is pressed on the keyboard.
+    keypress:() Event fired when a key is pressed on the keyboard.
+    From above definitions, it looks like that keydown() and keypress() are same thing. -->
+
+    <!-- The order of events related to the keypress event:
+    keydown - The key is on its way down
+    keypress - The key is pressed down
+    keyup - The key is released
+    The keypress() method triggers the keypress event, or attaches a function to run when a keypress event occurs.
+    The keypress event is similar to the keydown event. The event occurs when a button is pressed down.
+    However, the keypress event is not fired for all keys (e.g. ALT, CTRL, SHIFT, ESC). Use the keydown() method to also check these keys. -->
+
+    <form>
+        <label>username :</label>
+        <input type="text" name="Satyam"/>
+    </form>
+    <script src="./script.js"></script>
+  </body>
+</html>
