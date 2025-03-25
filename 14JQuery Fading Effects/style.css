@@ -1,0 +1,31 @@
+.centerdiv {
+  width: 500px;
+  height: 350px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#div1,
+#div2,
+#div3 {
+  width: 200px;
+  height: 100px;
+}
+
+#div1 {
+  background-color: red;
+}
+
+#div2 {
+  background-color: blue;
+}
+
+#div3 {
+  background-color: green;
+}
+
+h1 {
+  text-align: center;
+}
